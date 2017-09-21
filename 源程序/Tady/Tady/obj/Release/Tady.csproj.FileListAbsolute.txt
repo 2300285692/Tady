@@ -1,0 +1,16 @@
+D:\大三_课程\杨子光\软件开发案例分析_杨子光\c#_workplace\Tady\Tady\bin\Release\Tady.exe.config
+D:\大三_课程\杨子光\软件开发案例分析_杨子光\c#_workplace\Tady\Tady\bin\Release\Tady.exe
+D:\大三_课程\杨子光\软件开发案例分析_杨子光\c#_workplace\Tady\Tady\bin\Release\Tady.pdb
+D:\大三_课程\杨子光\软件开发案例分析_杨子光\c#_workplace\Tady\Tady\bin\Release\Microsoft.ReportViewer.WinForms.dll
+D:\大三_课程\杨子光\软件开发案例分析_杨子光\c#_workplace\Tady\Tady\bin\Release\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\大三_课程\杨子光\软件开发案例分析_杨子光\c#_workplace\Tady\Tady\obj\Release\Tady.denglu.resources
+D:\大三_课程\杨子光\软件开发案例分析_杨子光\c#_workplace\Tady\Tady\obj\Release\Tady.find.resources
+D:\大三_课程\杨子光\软件开发案例分析_杨子光\c#_workplace\Tady\Tady\obj\Release\Tady.zhuce.resources
+D:\大三_课程\杨子光\软件开发案例分析_杨子光\c#_workplace\Tady\Tady\obj\Release\Tady.main.resources
+D:\大三_课程\杨子光\软件开发案例分析_杨子光\c#_workplace\Tady\Tady\obj\Release\Tady.Properties.Resources.resources
+D:\大三_课程\杨子光\软件开发案例分析_杨子光\c#_workplace\Tady\Tady\obj\Release\Tady.csproj.GenerateResource.Cache
+D:\大三_课程\杨子光\软件开发案例分析_杨子光\c#_workplace\Tady\Tady\obj\Release\RdlCompile.cache
+D:\大三_课程\杨子光\软件开发案例分析_杨子光\c#_workplace\Tady\Tady\obj\Release\RdlCompile.compiled
+D:\大三_课程\杨子光\软件开发案例分析_杨子光\c#_workplace\Tady\Tady\obj\Release\Tady.exe
+D:\大三_课程\杨子光\软件开发案例分析_杨子光\c#_workplace\Tady\Tady\obj\Release\Tady.pdb
+D:\大三_课程\杨子光\软件开发案例分析_杨子光\c#_workplace\Tady\Tady\obj\Release\Tady.csprojResolveAssemblyReference.cache

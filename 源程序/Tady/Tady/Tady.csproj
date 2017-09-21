@@ -1,0 +1,541 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E974F60D-FBDB-483E-BC55-3E35481EEB45}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Tady</RootNamespace>
+    <AssemblyName>Tady</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="denglu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="denglu.Designer.cs">
+      <DependentUpon>denglu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="find.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="find.Designer.cs">
+      <DependentUpon>find.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kucun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kucun.Designer.cs">
+      <DependentUpon>kucun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kuncun1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kuncun1.Designer.cs">
+      <DependentUpon>kuncun1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maijiaxinxi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maijiaxinxi.Designer.cs">
+      <DependentUpon>maijiaxinxi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TadyDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TadyDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TadyDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TadyDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TadyDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TadyDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TadyDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TadyDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TadyDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TadyDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TadyDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TadyDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TadyDataSet14.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TadyDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TadyDataSet15.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TadyDataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TadyDataSet16.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TadyDataSet16.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TadyDataSet17.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TadyDataSet17.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TadyDataSet18.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TadyDataSet18.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TadyDataSet19.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TadyDataSet19.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TadyDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TadyDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TadyDataSet20.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TadyDataSet20.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TadyDataSet21.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TadyDataSet21.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TadyDataSet22.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TadyDataSet22.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TadyDataSet23.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TadyDataSet23.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TadyDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TadyDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TadyDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TadyDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TadyDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TadyDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TadyDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TadyDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TadyDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TadyDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TadyDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TadyDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TadyDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TadyDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="zhuce.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="zhuce.Designer.cs">
+      <DependentUpon>zhuce.cs</DependentUpon>
+    </Compile>
+    <Compile Include="main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main.Designer.cs">
+      <DependentUpon>main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="zijin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="zijin.Designer.cs">
+      <DependentUpon>zijin.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="denglu.resx">
+      <DependentUpon>denglu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="find.resx">
+      <DependentUpon>find.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kucun.resx">
+      <DependentUpon>kucun.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kuncun1.resx">
+      <DependentUpon>kuncun1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maijiaxinxi.resx">
+      <DependentUpon>maijiaxinxi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report1.rdlc" />
+    <EmbeddedResource Include="zhuce.resx">
+      <DependentUpon>zhuce.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main.resx">
+      <DependentUpon>main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="zijin.resx">
+      <DependentUpon>zijin.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="TadyDataSet.xsc">
+      <DependentUpon>TadyDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="TadyDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TadyDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TadyDataSet.xss">
+      <DependentUpon>TadyDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="TadyDataSet1.xsc">
+      <DependentUpon>TadyDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="TadyDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TadyDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TadyDataSet1.xss">
+      <DependentUpon>TadyDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="TadyDataSet10.xsc">
+      <DependentUpon>TadyDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="TadyDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TadyDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TadyDataSet10.xss">
+      <DependentUpon>TadyDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="TadyDataSet11.xsc">
+      <DependentUpon>TadyDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="TadyDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TadyDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TadyDataSet11.xss">
+      <DependentUpon>TadyDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="TadyDataSet12.xsc">
+      <DependentUpon>TadyDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="TadyDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TadyDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TadyDataSet12.xss">
+      <DependentUpon>TadyDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="TadyDataSet13.xsc">
+      <DependentUpon>TadyDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="TadyDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TadyDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TadyDataSet13.xss">
+      <DependentUpon>TadyDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="TadyDataSet14.xsc">
+      <DependentUpon>TadyDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="TadyDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TadyDataSet14.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TadyDataSet14.xss">
+      <DependentUpon>TadyDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="TadyDataSet15.xsc">
+      <DependentUpon>TadyDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="TadyDataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TadyDataSet15.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TadyDataSet15.xss">
+      <DependentUpon>TadyDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="TadyDataSet16.xsc">
+      <DependentUpon>TadyDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="TadyDataSet16.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TadyDataSet16.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TadyDataSet16.xss">
+      <DependentUpon>TadyDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="TadyDataSet17.xsc">
+      <DependentUpon>TadyDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="TadyDataSet17.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TadyDataSet17.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TadyDataSet17.xss">
+      <DependentUpon>TadyDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="TadyDataSet18.xsc">
+      <DependentUpon>TadyDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="TadyDataSet18.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TadyDataSet18.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TadyDataSet18.xss">
+      <DependentUpon>TadyDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="TadyDataSet19.xsc">
+      <DependentUpon>TadyDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="TadyDataSet19.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TadyDataSet19.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TadyDataSet19.xss">
+      <DependentUpon>TadyDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="TadyDataSet2.xsc">
+      <DependentUpon>TadyDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="TadyDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TadyDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TadyDataSet2.xss">
+      <DependentUpon>TadyDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="TadyDataSet20.xsc">
+      <DependentUpon>TadyDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="TadyDataSet20.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TadyDataSet20.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TadyDataSet20.xss">
+      <DependentUpon>TadyDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="TadyDataSet21.xsc">
+      <DependentUpon>TadyDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="TadyDataSet21.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TadyDataSet21.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TadyDataSet21.xss">
+      <DependentUpon>TadyDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="TadyDataSet22.xsc">
+      <DependentUpon>TadyDataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="TadyDataSet22.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TadyDataSet22.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TadyDataSet22.xss">
+      <DependentUpon>TadyDataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="TadyDataSet23.xsc">
+      <DependentUpon>TadyDataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="TadyDataSet23.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TadyDataSet23.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TadyDataSet23.xss">
+      <DependentUpon>TadyDataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="TadyDataSet3.xsc">
+      <DependentUpon>TadyDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="TadyDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TadyDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TadyDataSet3.xss">
+      <DependentUpon>TadyDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="TadyDataSet4.xsc">
+      <DependentUpon>TadyDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="TadyDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TadyDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TadyDataSet4.xss">
+      <DependentUpon>TadyDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="TadyDataSet5.xsc">
+      <DependentUpon>TadyDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="TadyDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TadyDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TadyDataSet5.xss">
+      <DependentUpon>TadyDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="TadyDataSet6.xsc">
+      <DependentUpon>TadyDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="TadyDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TadyDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TadyDataSet6.xss">
+      <DependentUpon>TadyDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="TadyDataSet7.xsc">
+      <DependentUpon>TadyDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="TadyDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TadyDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TadyDataSet7.xss">
+      <DependentUpon>TadyDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="TadyDataSet8.xsc">
+      <DependentUpon>TadyDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="TadyDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TadyDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TadyDataSet8.xss">
+      <DependentUpon>TadyDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="TadyDataSet9.xsc">
+      <DependentUpon>TadyDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="TadyDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TadyDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TadyDataSet9.xss">
+      <DependentUpon>TadyDataSet9.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TadyDataSet4" targetNamespace="http://tempuri.org/TadyDataSet4.xsd" xmlns:mstns="http://tempuri.org/TadyDataSet4.xsd" xmlns="http://tempuri.org/TadyDataSet4.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="TadyConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="TadyConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Tady.Properties.Settings.GlobalReference.Default.TadyConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="FactoryTableAdapter" GeneratorDataComponentClassName="FactoryTableAdapter" Name="Factory" UserDataComponentName="FactoryTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="TadyConnectionString (Settings)" DbObjectName="Tady.dbo.Factory" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Factory_name FROM dbo.Factory</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Factory_name" DataSetColumn="Factory_name" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="TadyDataSet4" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="TadyDataSet4" msprop:Generator_UserDSName="TadyDataSet4">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Factory" msprop:Generator_TableClassName="FactoryDataTable" msprop:Generator_TableVarName="tableFactory" msprop:Generator_TablePropName="Factory" msprop:Generator_RowDeletingName="FactoryRowDeleting" msprop:Generator_RowChangingName="FactoryRowChanging" msprop:Generator_RowEvHandlerName="FactoryRowChangeEventHandler" msprop:Generator_RowDeletedName="FactoryRowDeleted" msprop:Generator_UserTableName="Factory" msprop:Generator_RowChangedName="FactoryRowChanged" msprop:Generator_RowEvArgName="FactoryRowChangeEvent" msprop:Generator_RowClassName="FactoryRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Factory_name" msprop:Generator_ColumnVarNameInTable="columnFactory_name" msprop:Generator_ColumnPropNameInRow="Factory_name" msprop:Generator_ColumnPropNameInTable="Factory_nameColumn" msprop:Generator_UserColumnName="Factory_name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
